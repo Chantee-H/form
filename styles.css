@@ -96,3 +96,149 @@ input:focus {
     left: 140px;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+button {
+    background-color: #5e8896d8;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.log-in {
+    color: #5e8896d8;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 280px){
+
+    .container2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo-bg {
+        left: 10vw;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .input-bg {
+        padding: 0;
+    }
+}
+
+ @media screen and (min-width: 280px) and (max-width: 767px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+}
+
+ .info {
+   display: flex;
+   flex-direction: column;
+} 
+
+.iceland-img {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-bg {
+    /* top: 150px;
+    left: 110px; */
+    box-shadow: none;
+    display: flex;
+    align-items: flex-start;
+    left: 25vw;
+    top: 10vh;
+}
+
+.photographer {
+    left: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+} 
+
+.input-bg {
+    background-color: #535050;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+} 
+
+
+@media (min-width:768px) and (max-width: 920px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iceland-img {
+    width: 100vw;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .logo-name {
+    font-size: 70px;
+  }
+
+  .logo-bg {
+    top: 15vh;
+    left: 31vw;
+  }
+
+  .photographer {
+    font-size: 22px;
+    bottom: 110px;
+    /* left: 190px; */
+    left: 20vw;
+  }
+}
+
+@media (min-width:920px) and (max-width: 1024px){
+    .iceland-img {
+        width: 45vw;
+    }
+
+    .container2 {
+        padding: 20px;
+    }
+
+    .logo-bg {
+        left: 11.5vw;
+    }
+
+    .photographer {
+        left: 40px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .logo-bg{
+        left: 16vw;
+    }
+}
