@@ -84,3 +84,15 @@ input:focus {
     outline: none;
     border:  2px #4abfe6 solid;
 }
+
+.input-bg {
+    display: flex;
+    flex-direction: column;
+}
+
+.photographer {
+    position: absolute;
+    bottom: 41px;
+    left: 140px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
