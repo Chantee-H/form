@@ -10,6 +10,13 @@ body {
     color: #d6d2d2;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
 .iceland-img {
     width: 635px;
     height: 100vh;
