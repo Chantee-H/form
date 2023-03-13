@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, serif;
+}
+
+body {
+    background-color: #1b1717e1;
+    color: #d6d2d2;
+}
+
+.iceland-img {
+    width: 635px;
+    height: 100vh;
+    position: relative;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  } 
+  
+  div {
+      display: inline-block;
+      margin-bottom: 20px;
+  }
+  
+  div label {
+      display: block;
+  }
