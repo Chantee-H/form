@@ -68,3 +68,19 @@ body {
     top: 5vh;
     left: 15vw;
 }
+
+.logo-name {
+    font-family: 'Playfair Display';
+}
+    
+input {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px #E5E7EB solid;
+}
+
+input:focus {
+    outline: none;
+    border:  2px #4abfe6 solid;
+}
