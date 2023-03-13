@@ -29,16 +29,16 @@ body {
     margin-top: 50px;
   } 
   
-  div {
-      display: inline-block;
-      margin-bottom: 20px;
+ div {
+     display: inline-block;
+     margin-bottom: 20px;
   }
   
-  div label {
-      display: block;
+ div label {
+     display: block;
   }
 
-  .info-head {
+.info-head {
     margin-top: 50px;
 }
 
@@ -117,27 +117,27 @@ button {
 
 @media screen and (max-width: 280px){
 
-    .container2 {
-        margin: 0;
-        padding: 0;
-    }
+ .container2 {
+    margin: 0;
+    padding: 0;
+}
 
-    .logo-bg {
-        left: 10vw;
-        box-shadow: none;
-        padding: 0;
-    }
+ .logo-bg {
+     left: 10vw;
+     box-shadow: none;
+     padding: 0;
+}
 
-    .input-bg {
-        padding: 0;
-    }
+ .input-bg {
+     padding: 0;
+}
 }
 
  @media screen and (min-width: 280px) and (max-width: 767px){
-    .container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+ .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
  .info {
@@ -157,8 +157,6 @@ button {
 }
 
 .logo-bg {
-    /* top: 150px;
-    left: 110px; */
     box-shadow: none;
     display: flex;
     align-items: flex-start;
@@ -183,7 +181,7 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 15px;
-}
+ }
 } 
 
 
@@ -214,31 +212,30 @@ button {
   .photographer {
     font-size: 22px;
     bottom: 110px;
-    /* left: 190px; */
     left: 20vw;
   }
 }
 
 @media (min-width:920px) and (max-width: 1024px){
-    .iceland-img {
-        width: 45vw;
-    }
+  .iceland-img {
+     width: 45vw;
+  }
 
-    .container2 {
-        padding: 20px;
-    }
+  .container2 {
+     padding: 20px;
+  }
 
-    .logo-bg {
-        left: 11.5vw;
-    }
+   .logo-bg {
+     left: 11.5vw;
+   }
 
-    .photographer {
-        left: 40px;
-    }
+   .photographer {
+     left: 40px;
+   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px){
-    .logo-bg{
-        left: 16vw;
-    }
+   .logo-bg{
+     left: 16vw;
+  }
 }
